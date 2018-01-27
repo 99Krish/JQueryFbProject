@@ -1,0 +1,53 @@
+	@media screen and (min-width: 1px) and (max-width: 2500px)
+  	{
+
+			p
+			 {
+				color:#3498DB;
+				font-size: 11px;
+			 }
+ 	 }
+	 @media screen and (min-width: 250px) and (max-width: 500px)
+	{
+			p
+			 {
+				color:#3498DB;
+				font-size: 15px;
+			 }
+			 
+			 
+	}
+	@media screen and (min-width: 500px) and (max-width: 2000px)
+	{
+			p
+			 {
+				color:#3498DB;
+				font-size: 20px;
+			 }
+	}
+
+	.navbar {
+			overflow: hidden;
+			background-color: #333;
+			font-family: Arial;
+		}
+
+	.navbar a {
+			float: right;
+			font-size: 16px;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		  }
+			 
+	
+	.fblog {
+			float: left;
+			overflow: hidden;
+		}
+
+		.navbar a:hover, .fblog:hover
+		{
+			background-color: red;
+		}
